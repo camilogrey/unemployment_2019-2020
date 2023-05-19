@@ -9,7 +9,7 @@ import re
 from seaborn import load_dataset
 from scipy.stats import t
 from scipy.stats import zscore
-desp = pd.read_excel("C:/Users/camil/Documents/COURSES/Diplomado Data Sience/Data Sciences/Kaggle/Desempleo_Pre_pandemia/Desempleo_Pandemia.xlsx") #,sheet_name=None)
+desp = pd.read_excel("Route") #,sheet_name=None)
 desp['Año Prepandemia'] = desp['Año Prepandemia'].str.replace('%', '')
 desp['Año Pandemia'] = desp['Año Pandemia'].str.replace('%', '')
 
